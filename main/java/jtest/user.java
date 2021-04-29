@@ -35,31 +35,31 @@ public class user {
 		}
 
 
-		public boolean validate(final String email)
+		public boolean validateFirstName(final String email)
 		{
 			matcher = pattern.matcher(email);
 			return matcher.matches();
 
 		}
-		public boolean validate1(final String email)
+		public boolean validateEmail(final String email)
 		{
 			matcher1 = pattern1.matcher(email);
 			return matcher1.matches();
 
 		}
-		public boolean validate2(final String email)
+		public boolean validateLastName(final String email)
 		{
 			matcher2 = pattern2.matcher(email);
 			return matcher2.matches();
 
 		}
-		public boolean validate3(final String email)
+		public boolean validatePhone(final String email)
 		{
 			matcher3 = pattern3.matcher(email);
 			return matcher3.matches();
 
 		}
-		public boolean validate4(final String email)
+		public boolean validatePassword(final String email)
 		{
 			matcher4 = pattern4.matcher(email);
 			return matcher4.matches();

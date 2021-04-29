@@ -14,7 +14,7 @@ public class userTest {
         assertEquals(true, classUnderTest.validate1("abhishekkumar24717@gmail.com"));
         assertEquals(true, classUnderTest.validate3("8368915120"));
         assertEquals(true, classUnderTest.validate4("Engineer@21"));
-        //assertEquals(false, classUnderTest.validate5("hello"));
+        
     }
 
 	
